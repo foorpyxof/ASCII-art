@@ -1,0 +1,25 @@
+# Compiled stuff
+*.o
+*.obj
+*.lo
+*.slo
+
+*.so
+*.dylib
+*.dll
+
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# Build folder
+./build/
+
+# Ignore VScode 
+*.vscode
