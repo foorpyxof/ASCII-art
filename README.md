@@ -1,3 +1,5 @@
+### ! ***Work in progress*** !
+
 # Erynn's terminal ASCII art generator!
 ## About
 This repo contains the source code for my very own terminal ASCII art generator :3  
