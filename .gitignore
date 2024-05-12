@@ -21,5 +21,6 @@
 # Build folder
 ./build/
 
-# Ignore VScode 
+# Ignore VS & VScode
 *.vscode
+*.vs

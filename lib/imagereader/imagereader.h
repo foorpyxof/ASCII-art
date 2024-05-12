@@ -2,15 +2,20 @@
 #define IMAGEREADER_H
 
 #include <fstream>
-#include <cstddef>
+#include <cstdlib>
+#include <iostream>
 
-enum class Filetype { Other, Bmp, Png, Jpeg };
+extern "C" {
+	#include "../fpx_string/fpx_string.h"
+}
+
+enum class Filetype { Other, Bmp, Png, Jpeg};
 
 class ImageReader {
 	public:
 		static Filetype GetFiletype(const char*);
 	private:
-		static std::byte* pvt_HeaderData(const char*);
+		static char* pvt_HeaderData(const char*);
 };
 
 #endif
